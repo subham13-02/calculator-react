@@ -1,5 +1,6 @@
 {
   "name": "calculator-react",
+  "homepage":"https://subham13-20.github.io/Calculator-React",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,6 +14,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy":"npm run build",
+    "deploy":"gh-page -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
